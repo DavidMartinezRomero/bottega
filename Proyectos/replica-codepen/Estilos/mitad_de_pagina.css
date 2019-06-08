@@ -1,0 +1,127 @@
+
+.mitad-de-pagina {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.mitad-de-pagina > .contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    padding-top: 45px;
+    padding-left: 40px;
+}
+
+.mitad-de-pagina > .contenido > .informacion {
+    display: grid;
+    flex-direction: column;
+    width: 800px;
+    height: 400px;
+}
+
+.mitad-de-pagina > .contenido > .informacion > .text > .text1 p {
+    color: #e1e3ec;
+    text-decoration: none;
+    font-family: 'Telefon Black', Sans-Serif;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.mitad-de-pagina > .contenido > .informacion > .text > .text1 p > .sub {
+font-weight: 900;
+font-size: 2.1rem;
+color: white;
+}
+
+.mitad-de-pagina > .contenido > .informacion > .text > .text2 p {
+    color: #dcdcdc;
+    text-decoration: none;
+    font-family: 'Telefon Black', Sans-Serif;
+    font-size: 1.7rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.informacion > .enlaces3 {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    width: 600px;
+}
+
+.informacion > .enlaces3 > .enlaces3-content {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+}
+
+.enlaces3-content > .sign-up-for-free {
+    padding: 25px;
+    background-color: #47cf73;
+    border-radius: 4px;
+    width: 260px;
+}
+
+.enlaces3-content > .sign-up-for-free > a {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.enlaces3-content > .learn-more {
+    padding: 25px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.enlaces3-content > .learn-more > a {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
+.informacion2 {
+    display: flex;
+    width: 100%;
+    height: 550px;
+
+}
+
+.informacion2 > .contenido2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.informacion2 > .contenido2 > .this-is {
+    font-size: 1rem;
+    margin-left: 20px;
+    font-weight: 900;
+    font-family: 'Telefon Black', Sans-Serif;
+    color: white;
+}
+
+.informacion2 > .contenido2 > .this-is > p > .sub2 {
+    color: #76daff;
+}
+
+.informacion2 > .contenido2 > .contenedor-imagen {
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+.informacion2 > .contenido2 > .contenedor-imagen > .imagen-codepen-code {
+    display: flex;
+    height: 405px;
+}
+
+.informacion2 > .contenido2 > .contenedor-imagen > .imagen-codepen-code > img {
+    width: 580px;
+}

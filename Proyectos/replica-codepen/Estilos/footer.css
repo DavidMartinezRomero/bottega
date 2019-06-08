@@ -1,0 +1,99 @@
+
+.footer {
+    display: flex;
+    height: 185px;
+    width: 100%;
+}
+
+.footer > .footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 70px;
+    padding-top: 1px;
+    background-color: #363842;
+}
+
+.footer > .footer-container > .codepen-for-teams {
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.footer > .footer-container > .codepen-for-education {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.footer > .footer-container > .codepen-for-privacy {
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.footer > .footer-container > .codepen-for-writing {
+    width: 355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid white;
+}
+
+.footer > .footer-container > .codepen-for-teams> a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer > .footer-container > .codepen-for-education> a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer > .footer-container > .codepen-for-privacy> a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer > .footer-container > .codepen-for-writing> a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer > .footer-container > .codepen-for-teams > span {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: Telefon,sans-serif;
+    color: white;
+}
+
+.footer > .footer-container > .codepen-for-education > span {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: Telefon,sans-serif;
+    color: white;
+}
+
+.footer > .footer-container > .codepen-for-privacy > span {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: Telefon,sans-serif;
+    color: white;
+}
+
+.footer > .footer-container > .codepen-for-writing > span {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: Telefon,sans-serif;
+    color: white;
+}

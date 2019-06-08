@@ -1,0 +1,124 @@
+.barra-principal {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-codepen img {
+    width: 200px;
+    background-color: black;
+    display: flex;
+    padding: 25px 10px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.menu > .barra-contenedora {
+    display: flex;    
+}
+
+.menu > .barra-contenedora > .barra-de-herramientas {
+    display: flex;
+    flex-direction: column;
+    width: 450px;  
+    color: white;
+    padding-left: 40px;
+}
+
+.menu > .barra-contenedora > .barra-de-herramientas > .enlaces {
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    font-weight: 900;
+}
+
+.spark {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.spark > p {
+    color: #c5c8d4;
+    font-size: 1.2rem;
+}
+
+.enlaces2 > .icon > i {
+    color: white;
+}
+
+.barra-contenedora > .Logins {
+    display: flex;
+    align-items: center;
+    width: 660px;
+    justify-content: right;
+    padding-left: 15px;
+}
+
+.barra-contenedora > .Logins > .enlaces2 {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.Logins > .enlaces2 > .Create {
+    background-color: #36383f;
+    width: 80px;
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.Logins > .enlaces2 > .icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    width: 30px;
+    color: #c5c8d4;
+}
+
+.Logins > .enlaces2 > .icon i {
+    color: #c5c8d4;
+}
+
+.Logins > .enlaces2 > .Log-in {
+    background-color: #36383f;
+    width: 50px;
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.Logins > .enlaces2 > .Sign-up {
+    background-color: #36383f;
+    width: 60px;
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.barra-de-herramientas > .enlaces a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Telefon Black', Sans-Serif;
+    font-size: 1.1rem;
+}
+
+.Logins > .enlaces2 a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Telefon Black', Sans-Serif;
+    font-size: 1.1rem;
+    padding-bottom: 1px;
+}
+.barra-de-herramientas > .explore > p {
+    color: white;
+    font-family: 'Telefon Black', Sans-Serif;
+    color: #f2dc7c;
+    font-weight: 650;
+}
